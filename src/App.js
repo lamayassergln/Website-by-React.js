@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home/>}exact />
+        <Route path='/Website-by-React.js' element={<Home/>}exact />
         <Route path='/signin' element={<SigninPage/>} exact/>
       </Routes>
     </Router>
