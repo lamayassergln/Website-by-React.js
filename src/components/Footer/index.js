@@ -52,7 +52,7 @@ const Footer = () => {
             </FooterLinksContainer>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to='/' onClick={toggleHome}>
+                    <SocialLogo to='/Website-by-React.js' onClick={toggleHome}>
                         dolla
                     </SocialLogo>
                     <WebsiteRights>dolla © {new Date().getFullYear()}
