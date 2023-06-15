@@ -9,19 +9,19 @@ const HeroSection = () => {
         setHover(!hover);
     };
   return (
-    <HeroContainer>
+    <HeroContainer id='about'>
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
 
         <HeroContent>
-            <HeroH1>Virtual Banking Made Easy</HeroH1>
+            <HeroH1>Play and Discover the World</HeroH1>
             <HeroP>
-                Sign up for a new account today and recive $250 in credit towards your next payment.
+            Unlimited collection of distinctive and creative toys for your child.
             </HeroP>
             <HeroBtnWrapper>
                 <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    Get started {hover ?<ArrowForward/>:<ArrowRight/>}
+                 Lets Play {hover ?<ArrowForward/>:<ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>

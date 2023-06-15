@@ -9,6 +9,7 @@ export const InfoContainer = styled.div`
   }
   `;
 
+
   export const InfoWrapper= styled.div`
   display: grid;
   z-index: 1;
@@ -51,7 +52,7 @@ export const InfoContainer = styled.div`
    `;
 
    export const TopLine = styled.p`
-     color: #01bf71;
+     color: #3273b0;
      font-size: 16px;
      Line-height: 16px;
      font-weight: 700;

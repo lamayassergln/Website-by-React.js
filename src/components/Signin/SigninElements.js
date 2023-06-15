@@ -13,8 +13,8 @@ z-index:0;
 overflow:hidden;
 background:linear-gradient(
     108deg,
-    rgba(1,147,86,1)0%,
-    rgba(10,201,122,1)100%
+    rgb(249,212,56)0%,
+    rgb(62,102,176)70%
     );
 `;
 
@@ -64,7 +64,7 @@ z-index:1;
 display:grid;
 margin:0 auto;
 padding: 80px 32px;
-border-radius: 4px;
+border-radius: 40px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
 @media screen and (max-width: 400px) {
@@ -94,7 +94,7 @@ export const FormH1= styled.h1`
   `;
 
   export const FormButton = styled.button`
-  background:#01bf71;
+  background:#f7d339;
   padding:16px 0;
   border:none;
   border-radius:4px;

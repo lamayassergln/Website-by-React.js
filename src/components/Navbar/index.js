@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer> 
             <NavLogo to='/Website-by-React.js' onClick={toggleHome}>
-              dolla
+              Muradi
               </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -45,7 +45,7 @@ const Navbar = ({toggle}) => {
                 exact='true'
                 offset={-80}
                 >
-                  About</NavLinks>
+                About</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks 
@@ -59,23 +59,23 @@ const Navbar = ({toggle}) => {
               </NavItem>
               <NavItem>
                 <NavLinks 
-                to='services'
+                to='Brands'
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact='true'
                 offset={-80}
-                >Services</NavLinks>
+                >Brands</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks 
-                to="signup"
+                to='Collections'
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact='true'
                 offset={-80}
-                >Sign Up</NavLinks>
+                >Collections</NavLinks>
               </NavItem>
             </NavMenu>
 

@@ -46,6 +46,7 @@ const Footer = () => {
                             <FooterLink to="/signin">Facebook</FooterLink>
                             <FooterLink to="/signin">Youtube</FooterLink>
                             <FooterLink to="/signin">Twitter</FooterLink>
+                            <FooterLink to="/signin">Linkedin</FooterLink>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
 
@@ -53,9 +54,9 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/Website-by-React.js' onClick={toggleHome}>
-                        dolla
+                        Muradi
                     </SocialLogo>
-                    <WebsiteRights>dolla © {new Date().getFullYear()}
+                    <WebsiteRights>Muradi © {new Date().getFullYear()}
                     All Rights reserved.
                     </WebsiteRights>
                     <SocialIcons>

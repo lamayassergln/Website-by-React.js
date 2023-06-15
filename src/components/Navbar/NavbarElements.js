@@ -39,6 +39,7 @@ align-items:center;
 margin-left:24px;
 font-weight:bold;
 text-decoration:none;
+text-shadow: 12px 15px #f7d339;
 `;
 
 export const MobileIcon=styled.div`
@@ -83,7 +84,7 @@ cursor:pointer;
 
 
 &.active{
-  border-bottom:3px solid #01bf71;
+  border-bottom:3px solid #f7d339;
 }
 `;
 
@@ -98,7 +99,7 @@ align-items:center;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius:50px;
-background:#01bf71;
+background:#f7d339;
 white-space:nowrap;
 padding:10px 22px;
 color:#010606;

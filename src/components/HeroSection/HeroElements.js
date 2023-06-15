@@ -46,6 +46,7 @@ export const HeroBg = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
+    margin-top: 15px;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
@@ -56,7 +57,8 @@ export const HeroBg = styled.div`
     color: #fff;
     font-size: 48px;
     text-align: center;
-
+    text-shadow: 2px 2px 5px #3058a5;
+    
     @media screen and (max-width: 768px) {
       font-size: 40px;
     }

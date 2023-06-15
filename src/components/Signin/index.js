@@ -6,7 +6,7 @@ const SignIn = () => {
     <>
     <Container>
         <FormWrap>
-            <Icon to='/Website-by-React.js'>dolla</Icon>
+            <Icon to='/Website-by-React.js'>Muradi</Icon>
             <FormContent>
                 <Form action='#'>
                     <FormH1>Sign in to your account</FormH1>

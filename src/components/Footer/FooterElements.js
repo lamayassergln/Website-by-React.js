@@ -61,7 +61,7 @@ margin-bottom:0.5rem;
 font-size:14px;
 
 &:hover{
-    color:#01bf71;
+    color:#f7d339;
     transition: 0.3s ease-in-out;
 }
 `;
@@ -92,6 +92,8 @@ display:flex;
 algin-items:center;
 margin-bottom:16px;
 font-weight:bold;
+family:Josefin Sans;
+text-shadow: 12px 15px #f7d339;
 `;
 
 export const WebsiteRights=styled.small`
